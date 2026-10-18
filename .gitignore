@@ -1,2 +1,2 @@
 .env
-dataset.jsonl
+data/dataset.jsonl

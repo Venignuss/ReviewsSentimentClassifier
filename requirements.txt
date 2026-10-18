@@ -1,0 +1,6 @@
+pandas==3.0.6
+google-genai==2.31.0
+python-dotenv==1.2.4
+jupyterlab==4.6.4
+pydantic==2.14.1
+tqdm==4.70.1
