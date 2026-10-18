@@ -89,7 +89,7 @@ def classify_all(
             try:
                 results.update(classify_batch(df.loc[pending], client, model, max_sentiments))
             except genai_errors.APIError as error:
-                if error.code != 429 and error.code <= 500:
+                if error.code != 429 and error.code < 500:
                     raise
                 time.sleep(5 * 2**attempt)
 

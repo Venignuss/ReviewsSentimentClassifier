@@ -33,8 +33,8 @@ reviews (.jsonl) → batches of 25 → Gemini (JSON answer with a fixed schema) 
 ## Installation
 
 ```bash
-git clone https://github.com/Venignuss/ReviewsSummarizer
-cd ReviewsSummarizer
+git clone https://github.com/Venignuss/ReviewsSentimentClassifier
+cd ReviewsSentimentClassifier
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
